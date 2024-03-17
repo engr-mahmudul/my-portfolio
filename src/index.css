@@ -209,6 +209,9 @@ h6 {
 
 .theme-dot:hover {
   border-width: 5px;
+  height: 25px;
+  width: 25px;
+  margin: 3px;
 }
 
 #light-mode {
@@ -411,12 +414,13 @@ h6 {
 @media screen and (max-width: 400px) {
   #preview-shadow {
     max-width: 280px;
-    height: 180px;
+    height: 185px;
     padding-left: 10px;
     padding-top: 10px;
+    margin-left: -5px;
   }
 
   #preview {
-    width: 280px;
+    width: 268px;
   }
 }
