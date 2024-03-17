@@ -1,11 +1,12 @@
-import followImage from "../assets/images/follow.jpg";
+import followImage from "../assets/images/bg-1.svg";
+// import followImage from "../assets/images/follow.jpg";
 export default function MoreAbout() {
   return (
     <section className="s2">
       <div className="main-container">
         <div className="about-wrapper">
           <div className="about-me">
-            <h4>More about me</h4>
+            <h4>MORE ABOUT ME</h4>
 
             <p>
               I build new projects just to tickle my brain and love teaching
@@ -48,8 +49,12 @@ export default function MoreAbout() {
           </div>
 
           <div className="social-links">
-            <img id="social_img" src={followImage} />
-            <h3>Find me on Twitter & Youtube</h3>
+            <img
+              id="social_img"
+              src={followImage}
+              style={{ width: "50%", margin: "0 auto", marginTop: "15%" }}
+            />
+            <h3>Find me on Social Media</h3>
 
             <a target="_blank" href="https://www.youtube.com/c/dennisivy">
               YouTube: @DennisIvy

@@ -3,7 +3,7 @@ import eCommerce from "../assets/images/ecom.jpg";
 import membership from "../assets/images/membership_site.jpg";
 export default function Projects() {
   return (
-    <di className="s1">
+    <div className="s1">
       <div className="main-container">
         <h3 style={{ textAlign: "center" }}>Some of my past projects</h3>
 
@@ -51,6 +51,6 @@ export default function Projects() {
           </div>
         </div>
       </div>
-    </di>
+    </div>
   );
 }
